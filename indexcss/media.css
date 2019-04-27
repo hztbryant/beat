@@ -1,0 +1,298 @@
+@media screen and (max-width:1040px) {
+    .leftimg1 {
+        display: none!important;
+    }
+    .leftimg2 {
+        display: block!important;
+    }
+    .join {
+        margin-top: 40px!important;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+@media screen and (min-width:1024px){
+    
+    .join-input .put{
+        width: 40%!important;
+    }
+}
+@media screen and (max-width:1023px) {
+    .container {
+        width:95%!important;
+    }
+    .focus {
+        position: relative!important;
+        top: 0px!important;
+        margin-top: 0px!important;
+    }
+    .focus img {
+        width: 100%!important;
+        height: 100%!important;
+        object-fit: cover;
+        height: 308.6px!important;
+        transform: scale(1)!important;
+    }
+    .focus .text {
+        position: static!important;
+        top: 0!important;
+        left: 0!important;
+        width: 100%;
+        transform: translateX(0)!important;
+    }
+    .box,
+    .box2,
+    .box3,
+    .box-1,
+    .box-2,
+    .box-3 {
+        width: 150px!important;
+        height: 34.6px!important;
+        line-height: 34.6px!important;
+    }
+    .box {
+        background-color: #fff!important;
+        border: 2px solid #222!important;
+    }
+    .box-3 {
+        background-color: black!important;
+    }
+    .box-1:hover .box-2 {
+        transform: translateY(0px)!important;
+        color: white!important;
+    }
+    .product1-left {
+        margin-right: 0px!important;
+    }
+    .product1-right {
+        position: static!important;
+        width: 100%!important;
+    }
+    .product2-left {
+        margin-left: 0px!important;
+    }
+    .product2-right {
+        position: static!important;
+        width: 100%!important;
+    }
+    .join .container .row h2 {
+        font-size: 37px!important;
+    }
+     .footer .footer-logo{
+         display: none;
+     }
+     .footer{
+        padding-left:80px;
+     }
+     
+}
+/* @media (min-width: 992px){
+    .container {
+        width:90%!important;
+    }
+} */
+
+/* @media (min-width: 768px){
+    .container {
+        width: 100%!important;
+        padding:0 120px!important;
+    }  
+} */
+
+@media screen and (max-width:784px) {
+    .img2 {
+        display: none;
+    }
+    .img3 {
+        display: block!important;
+        height: 209.6px!important;
+    }
+    .leftimg11 {
+        display: none!important;
+    }
+    .leftimg22 {
+        display: block!important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .box,
+    .box2,
+    .box3,
+    .box-1,
+    .box-2,
+    .box-3 {
+        width: 83px!important;
+        height: 34.6px!important;
+        line-height: 34.6px!important;
+    }
+    .box-1,
+    .box-2,
+    .box-3 {
+        width: 130px!important;
+        height: 34.6px!important;
+        line-height: 34.6px!important;
+    }
+    .text2-inner {
+        /* width: 100%!important;  */
+        position: relative!important;
+    }
+    .text2-inner .text2-inner-in {
+        width: 223px!important;
+        height: 34.6px!important;
+    }
+    .product1 {
+        margin-bottom: 250px!important;
+    }
+    .product1-right {
+        width: 95%!important;
+        position: absolute!important;
+        left: 50%!important;
+        transform: translate(-50%)!important;
+        bottom: -225px!important;
+    }
+    .product2-right {
+        width: 95%!important;
+        position: absolute!important;
+        left: 50%!important;
+        transform: translate(-50%)!important;
+        bottom: -225px!important;
+    }
+    .product2-right h3,
+    .product1-right h3 {
+        font-size: 18px!important;
+        /* margin-top:40px!important; */
+    }
+    .product1-right-niu .box,
+    .product1-right-niu .box2,
+    .product1-right-niu .box3 {
+        width: 200px!important;
+        height: 34.6px!important;
+    }
+    .product1-right-niu {
+        position: relative!important;
+    }
+    .product1-right-niu .box {
+        position: absolute!important;
+        left: 50%!important;
+        transform: translate(-50%);
+    }
+    .suport-icon {
+        background-color: #F7F7F8!important;
+    }
+    .suport {
+        margin-top: 120px!important;
+    }
+    .suport-ul li {
+        flex: 0 0 50%!important;
+    }
+    .suport-img {
+        width: 130px!important;
+        height: 130px!important;
+    }
+    .join {
+        margin-top: 0px!important;
+    }
+    .join .container .row {
+        padding: 30px 0 50px!important;
+    }
+    .footer{
+        display: none!important;
+       
+    }
+    .copyright{
+        margin-top:40px;
+        height: 40px;
+        box-sizing: border-box;
+        padding-top:16px;
+    }
+
+    /* 第二头部 */
+    .ul-123 li{
+        
+        padding:10px 22px!important;
+        
+    }
+    .ul-123 li .div-p-1{
+       
+        font-size: 12px!important;
+        
+    }
+    .ul-12 li,.ul-123 li{
+        background-color: #1F1F1F!important;
+    }
+   .ul-1>li>a>p{
+       font-size:20px;
+       padding:0 15px;
+   }
+   .ul-1>li>a>p>i{
+       font-size:12px;
+   }
+   .ul-12>li>a>p{
+    font-size:16px!important;
+    padding:0 15px!important;
+}
+    .ul-12>li>a>p>i{
+    font-size:12px!important;
+}
+.li2-a>a>p{
+    font-size:16px!important;
+    padding:0 15px!important;
+}
+.li2-a>a>p>i{
+    font-size:12px!important;
+}
+.company-ul li{
+    font-size:16px!important;
+    padding:0 15px!important;
+}
+.company-ul li a{
+    font-size:14px!important;
+}
+.company-ul li a i{
+    font-size:12px!important;
+}
+.lunbo .row{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.lunbo .row>div:nth-child(2){
+    margin:0!important;
+}
+.swiper-container {
+    width: 100%!important; 
+    /* flex:0;   */
+    margin:20px 0;
+    
+}
+.swiper-container .swiper-slide{
+    background-color:#fff;
+    padding:0 20%;
+}
+.swiper-container .swiper-slide a {
+ background-color: #fff;
+ margin-top:0px;
+ font-size: 12px;
+}
+.product{
+    margin:30px 0;
+    
+}
+.join-input .put button{
+    width: 80px;
+}
+/* .text2 .text2-inner-in {
+    width: 51%!important;  
+} */
+}
+/* @media screen and (max-width:772px){
+    .text2 .text2-inner-in {
+        width: 60%!important;  
+    }
+} */

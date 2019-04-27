@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* html,body{ */
+    /* height: 100%; */
+    /* min-width: 375px; */
+    /* overflow: auto; */
+/* } */
+body {
+    /* height: 10000px; */
+    background-color: #F7F7F8;
+    min-width: 355px;
+    width: 100%!important;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
